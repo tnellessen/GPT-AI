@@ -5,7 +5,7 @@ export const submitFormData = createAsyncThunk(
   "form/submitFormData",
   async (formData, { rejectWithValue }) => {
     try {
-      const response = await fetch("https://backend-bt48.onrender.com/api/intake", {
+      const response = await fetch("https://gpt-ai-backend-y1ic.onrender.com/api/intake", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
