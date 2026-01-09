@@ -84,7 +84,7 @@ function Navbar() {
     <div className="bg-black">
       <div className="max-container">
         <nav className="navbar">
-          <a href="https://www.metadata.digital/" className="logo-link">
+          <a href="https://www.metatikdigital.net/" className="logo-link">
             <img className="logo_metalik" src="/image.png" alt="logo" />
           </a>
           <ul className={`links-container ul-screen-big nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
